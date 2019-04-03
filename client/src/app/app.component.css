@@ -1,0 +1,23 @@
+.app-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.todos-section {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.questions-section {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.goals-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;    
+}
